@@ -10,8 +10,8 @@ const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
     <div className="main-text text-center">
-        <h3 className="text-center text-light my-5"><strong>May the years ahead be filled with lasting joy.</strong></h3>
-        <h4>Here's a little something just for you!</h4>
+        <h2 className="text-center text-light my-5"><strong>May the years ahead be filled with lasting joy.</strong></h2>
+        <h3>Here's a little something just for you!</h3>
     </div>
     <div className="container">
     <div className="row">
@@ -37,8 +37,8 @@ const IndexPage = () => (
       </div>
     </div>
 </div>
-<div style={{ maxWidth: `960px`, margin: `2.45rem`, marginTop: `15rem` }}>
-    <h1 className='text-center'>{JSONData.title}</h1>
+<div style={{ maxWidth: `960px`, margin: `2.45rem`, marginTop: `18rem` }}>
+    <h2 className='text-center'>{JSONData.title}</h2>
     <div className="messages-container"></div>
     <ul className="grid-testimonials">
       {JSONData.content.map((data, index) => {
