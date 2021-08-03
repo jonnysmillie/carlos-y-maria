@@ -4,25 +4,55 @@ import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import JSONData from "../data/data.json"
 
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <StaticImage
-      src="../images/gatsby-astronaut.png"
-      width={300}
-      quality={95}
-      formats={["AUTO", "WEBP", "AVIF"]}
-      alt="A Gatsby astronaut"
-      style={{ marginBottom: `1.45rem` }}
-    />
-    <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-    </p>
+    <div className="main-text text-center">
+        <h3 className="text-center text-light my-5"><strong>May the years ahead be filled with lasting joy.</strong></h3>
+        <h4>Here's a little something just for you!</h4>
+    </div>
+    <div className="container">
+    <div className="row">
+      <br />
+      <div className="col-12 mt-5 d-flex justify-content-center">
+        <div className="box">
+          <div className="box-body">
+            <p>Hola amingos</p>
+              <StaticImage
+              src="../images/conchal.jpeg"
+              width={400}
+              quality={95}
+              className="img"
+              formats={["AUTO", "WEBP", "AVIF"]}
+            />
+            <div className="box-lid">
+              
+              <div className="box-bowtie"></div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+<div style={{ maxWidth: `960px`, margin: `2.45rem`, marginTop: `15rem` }}>
+    <h1 className='text-center'>{JSONData.title}</h1>
+    <div className="messages-container"></div>
+    <ul className="grid-testimonials">
+      {JSONData.content.map((data, index) => {
+        return (
+          
+          <li key={`content_item_${index}`}>
+            <div>
+              <p>{data.message}</p><span className="quote-arrow"></span></div>
+          <span class="grid-testimonials-citation">{data.name}</span>
+          </li>
+        )
+      })}
+    </ul>
+  </div>
   </Layout>
 )
 
