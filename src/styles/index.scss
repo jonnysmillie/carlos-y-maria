@@ -34,6 +34,9 @@ body {
     position: relative;
     height: 400px;
     width: 400px;
+    @media (max-width:500px) {
+        width: 100%
+    }
     margin-top: 123.3333333333px;
     background-color: #cc231e;
     border-bottom-left-radius: 5%;
@@ -41,7 +44,7 @@ body {
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.3);
     background: linear-gradient(#762c2c,#ff0303);
   }
-  .box-body .img, .box-body p{
+  .box-body .img{
     opacity: 0;
     transform: translateY(0%);
     transition: all 0.5s;
@@ -98,6 +101,9 @@ body {
     background-color: #cc231e;
     height: 80px;
     width: 440px;
+    @media (max-width:500px) {
+        width: 100%
+    }
     border-radius: 5%;
     box-shadow: 0 8px 4px -4px rgba(0, 0, 0, 0.3);
   }
