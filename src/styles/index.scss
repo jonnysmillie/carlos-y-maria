@@ -343,3 +343,20 @@ body {
     margin-right: 0
   }
 }
+.fullwidth {
+    width: 100%;
+    margin-bottom: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.center {
+    margin-bottom: 4rem;
+}
+.flex {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

@@ -55,25 +55,26 @@ const IndexPage = () => (
   </div>
   <StaticImage
               src="../images/team.png"
-              width={400}
-              quality={95}
-              className="img"
+              quality={100}
+              className="img fullwidth"
               formats={["AUTO", "WEBP", "AVIF"]}
             />
-    <StaticImage
-              src="../images/roberto.png"
-              width={400}
-              quality={95}
-              className="img"
-              formats={["AUTO", "WEBP", "AVIF"]}
-            />
+    <div className="flex">
+      <StaticImage
+                src="../images/roberto.png"
+                quality={95}
+                className="img center"
+                formats={["AUTO", "WEBP", "AVIF"]}
+              />
+    <div className="flex">
+    </div>
     <StaticImage
               src="../images/anand.jpg"
-              width={400}
               quality={95}
-              className="img"
+              className="img center"
               formats={["AUTO", "WEBP", "AVIF"]}
             />
+    </div>
   </Layout>
 )
 
