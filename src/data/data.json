@@ -11,11 +11,44 @@
        },
        {
         "name":"Toby",
-        "message":"good one carlos!"
+        "message":"Congratulations Carlos. May your day be filled with alcohol and laughter and your future with love and happiness!"
         },
         {
-            "name":"Luz",
-            "message":"Que los vientos siempre soplen a su favor, ¡muchas felicidades!"
-         }
+            "name":"Marshia",
+            "message":"May the love you share today grow stronger as you grow old together, que vivan los novios!"
+       },
+       {
+          "name":"Debbol",
+          "message":"የአብርሃምና የሳራ ትዳር ያርግላችሁ!"
+       },
+
+       {
+          "name":"Alan",
+          "message":"Carlos! Wishing you y tu esposa all the happiness in el mundo! Congratulations!"
+       },
+{
+          "name":"Sava",
+          "message":"Marriage is like a walk in the park… Jurassic Park."
+       },
+{
+          "name":"Kidist A",
+          "message":"May you have a blessed family!.. Make it work!. And keep it simple! (a piece of advice from an unmarried comrade :)"
+       },
+{
+          "name":"Tom",
+          "message":"Hey Carlos! Thanks for all that you do for our company, for your leadership, for keeping cool under pressure, and for being a great friend. We are still at the start of this great adventure. Give my regards to your new boss!"
+       },
+{
+          "name":"Costas",
+          "message":"Heartfelt congratulations! Best wishes on this wonderful journey, as you build your new lives together. May you have a lifetime of love and happiness."
+       },
+{
+          "name":"Lando",
+          "message":"Muchas felicidades Carlos! Sos un grande y es un honor trabajar con vos. Espero que seas muy feliz con tu nueva familia. Pura vida!!"
+       },
+{
+          "name":"Joanna",
+          "message":"I hope that your marriage will last forever and that you will always be in love and extremely happy! Happy Wedding Day!"
+       }
     ]
- }
+}
