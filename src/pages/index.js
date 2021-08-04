@@ -53,6 +53,27 @@ const IndexPage = () => (
       })}
     </ul>
   </div>
+  <StaticImage
+              src="../images/team.png"
+              width={400}
+              quality={95}
+              className="img"
+              formats={["AUTO", "WEBP", "AVIF"]}
+            />
+    <StaticImage
+              src="../images/roberto.png"
+              width={400}
+              quality={95}
+              className="img"
+              formats={["AUTO", "WEBP", "AVIF"]}
+            />
+    <StaticImage
+              src="../images/anand.jpg"
+              width={400}
+              quality={95}
+              className="img"
+              formats={["AUTO", "WEBP", "AVIF"]}
+            />
   </Layout>
 )
 
