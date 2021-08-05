@@ -18,25 +18,12 @@
             "message":"May the love you share today grow stronger as you grow old together, que vivan los novios!"
        },
        {
-          "name":"Debbol",
-          "message":"የአብርሃምና የሳራ ትዳር ያርግላችሁ!"
-       },
-
-       {
           "name":"Alan",
           "message":"Carlos! Wishing you y tu esposa all the happiness in el mundo! Congratulations!"
        },
 {
-          "name":"Sava",
-          "message":"Marriage is like a walk in the park… Jurassic Park."
-       },
-{
           "name":"Kidist A",
           "message":"May you have a blessed family!.. Make it work!. And keep it simple! (a piece of advice from an unmarried comrade :)"
-       },
-{
-          "name":"Tom",
-          "message":"Hey Carlos! Thanks for all that you do for our company, for your leadership, for keeping cool under pressure, and for being a great friend. We are still at the start of this great adventure. Give my regards to your new boss!"
        },
 {
           "name":"Costas",
@@ -46,14 +33,34 @@
           "name":"Lando",
           "message":"Muchas felicidades Carlos! Sos un grande y es un honor trabajar con vos. Espero que seas muy feliz con tu nueva familia. Pura vida!!"
        },
-{
+       {
+        "name":"Joaquin",
+        "message":"¡¡Muchas felicidades, parejita!! Os deseo todo lo mejor y que celebréis este día tan especial con alegría. ¡Viva el amor y la madre que os parió! =D"
+        },
+        {
           "name":"Joanna",
           "message":"I hope that your marriage will last forever and that you will always be in love and extremely happy! Happy Wedding Day!"
        },
        {
-
-        "name":"Bart",
-        "message":"May this be a next step towards fulfilled, happy and joyful life. For both of you! ¡Felicitaciones por el gran paso!"
-        }
+            "name":"Bart",
+            "message":"May this be a next step towards fulfilled, happy and joyful life. For both of you! ¡Felicitaciones por el gran paso!"
+        },
+        {
+            "name":"Ilan",
+            "message":"Carlos, congratulations for this important step in your life, God bless your new family with tons of dreams, health and happiness!"
+            },
+        {
+            "name":"Debbol",
+            "message":"የአብርሃምና የሳራ ትዳር ያርግላችሁ!"
+         },
+        {
+            "name":"Tom",
+            "message":"Hey Carlos! Thanks for all that you do for our company, for your leadership, for keeping cool under pressure, and for being a great friend. We are still at the start of this great adventure. Give my regards to your new boss!"
+         },
+         {
+            "name":"Sava",
+            "message":"Marriage is like a walk in the park… Jurassic Park."
+         }
+        
     ]
 }
