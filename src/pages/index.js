@@ -37,7 +37,8 @@ const IndexPage = () => (
     </div>
 </div>
 <div style={{ maxWidth: `960px`, margin: `2.45rem`, marginTop: `18rem` }}>
-    <h2 className='text-center'>{JSONData.title}</h2>
+    <h2 className='text-center'>A 2 night stay at the <a target="_blank" rel="noopener noreferrer" href='https://www.marriott.com/hotels/travel/lirwi-the-westin-reserva-conchal-an-all-inclusive-golf-resort-and-spa/'>Westin Reserva Conchal</a> for the happy couple</h2>
+    <h3 className='text-center'>{JSONData.title}</h3>
     <p>Elegant and exclusive, our Royal Beach Club Suite will complement your dreamed stay. Located within a separated area in our resort, where you will enjoy access to an adults-only pool and lounge, personalized concierge/butler service and premium alcohol beverages as part of your benefits.</p>
     <p>This suite will offer you the private and relaxed touch you want for your stay. As soon as you arrive, you will feel invited to settle in and relax, take a complimentary Costa Rican coffee to the balcony, featuring an outdoor soaking tub. Along with refreshing garden or pool views, this suite is equipped with a 32-inch LCD TV, an iPod docking station and complimentary High Speed Internet Access.</p>
     <p>In addition, its modern and stylish bathroom off from the living area, which provides extra privacy and convenience, is furnished with an invigorating rainforest shower, Westin White Tea Heavenly™ Bath Amenities, plush bathrobes, and slippers to complete a unique experience. Royal Beach Club Suites are limited to guests aged 18 and over.</p>
